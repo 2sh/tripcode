@@ -1,15 +1,10 @@
 {
-  "name": "tripcode",
-  "version": "3.0.3",
+  "name": "tripcode-2ch-fork",
+  "version": "1.0.0",
   "description": "Calculate tripcodes.",
   "keywords": [
     "tripcode"
   ],
-  "homepage": "https://kenany.github.io/tripcode/",
-  "bugs": {
-    "url": "https://github.com/KenanY/tripcode/issues"
-  },
-  "repository": "KenanY/tripcode",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "bin": {

@@ -1,5 +1,5 @@
 var crypt = require('./lib/crypt');
-var htmlEscape = require('./lib/html-escape');
+// var htmlEscape = require('./lib/html-escape');
 var sjisconv = require('./lib/sjisconv');
 
 var SALT_TABLE = '.............................................../0123456789A'
@@ -28,7 +28,8 @@ function sjis(str) {
  */
 module.exports = function(key) {
   key = sjis(key);
-  key = htmlEscape(key);
+  // don't use htmlEscape for 2channel compatibility
+  // key = htmlEscape(key);
 
   if (!key.length) return '';
 
